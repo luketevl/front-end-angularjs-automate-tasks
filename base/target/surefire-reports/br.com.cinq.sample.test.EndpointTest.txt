@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.cinq.sample.test.EndpointTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.686 sec - in br.com.cinq.sample.test.EndpointTest

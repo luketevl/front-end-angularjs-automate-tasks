@@ -1,0 +1,4 @@
+br/com/cinq/sample/bean/Person.class
+br/com/cinq/sample/Config.class
+br/com/cinq/sample/resource/PeopleResource.class
+br/com/cinq/sample/Application.class
