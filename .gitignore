@@ -2,5 +2,11 @@
 /.settings/
 /.classpath
 /.project
-/node_modules/
-/bower_components/
+node_modules
+bower_components
+
+*.class
+
+*.class
+
+*.class

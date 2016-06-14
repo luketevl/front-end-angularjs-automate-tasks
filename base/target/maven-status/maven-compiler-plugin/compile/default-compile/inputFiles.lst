@@ -1,4 +1,4 @@
-/Applications/MAMP/htdocs/front-end-angularjs-automate-tasks/src/main/java/br/com/cinq/sample/bean/Person.java
-/Applications/MAMP/htdocs/front-end-angularjs-automate-tasks/src/main/java/br/com/cinq/sample/resource/PeopleResource.java
-/Applications/MAMP/htdocs/front-end-angularjs-automate-tasks/src/main/java/br/com/cinq/sample/Application.java
-/Applications/MAMP/htdocs/front-end-angularjs-automate-tasks/src/main/java/br/com/cinq/sample/Config.java
+/Applications/MAMP/htdocs/front-end-angularjs-automate-tasks/base/src/main/java/br/com/cinq/sample/resource/PeopleResource.java
+/Applications/MAMP/htdocs/front-end-angularjs-automate-tasks/base/src/main/java/br/com/cinq/sample/bean/Person.java
+/Applications/MAMP/htdocs/front-end-angularjs-automate-tasks/base/src/main/java/br/com/cinq/sample/Application.java
+/Applications/MAMP/htdocs/front-end-angularjs-automate-tasks/base/src/main/java/br/com/cinq/sample/Config.java

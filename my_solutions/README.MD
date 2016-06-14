@@ -1,7 +1,7 @@
 == Install the server dependency
   - In server folder use the command:
   ```
-    bower start
+    npm start
   ```
   - In cli folder use the command:
   ```
@@ -20,8 +20,8 @@
   - Open the file **index.html** to use
 
 
-
-
+== Using the server
+  - The API using URL **http://localhost:595/api/v1/people**
 
 
 == Observations
