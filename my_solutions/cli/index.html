@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html ng-app="app" ng-cloak>
+    <head>
+      <title>Front-end-angularjs-automate-tasks</title>
+
+      <!-- Importing the STYLES -->
+      <link rel="stylesheet" href="css/style.css" />
+
+    </head>
+    <body ng-controller="AppCtrl as principalCtrl">
+      {{principalCtrl.teste}}
+
+      <!-- Header -->
+      <header ng-include="'views/header.html'"></header>
+
+      <!-- FORM -->
+      <form>
+        <label>Name</label>
+        <input type="text" placeholder="Putt the name" ng-model="name" />
+<div ng-repeat="people in peoples | filter: name">{{::people.id}}</div>
+      <!-- CARDS -->
+        <div ui-card ng-repeat="people in peoples | filter: name" ui-id="{{::people.id}}" ui-name="{{::people.name}}" ui-disclosableinfo="{{::people.disclosableInfo}}" >{{people}}</div>
+      </form>
+
+      <!-- Footer -->
+      <footer ng-include="'views/footer.html'"></footer>
+
+      <!-- Importing the SCRIPTS -->
+      <script src="bower_components/angular/angular.min.js"></script>
+      <script src="js/app.js"></script>
+
+      <!-- Controllers -->
+      <script src="js/controllers/appController.js"></script>
+
+      <!-- Services -->
+      <script src="js/services/apiService.js"></script>
+
+      <!-- Values -->
+      <script src="js/values/config.js"></script>
+
+      <!-- Directives -->
+      <script src="js/directives/cardDirective.js"></script>
+
+    </body>
+  </html>

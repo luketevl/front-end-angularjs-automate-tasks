@@ -1,6 +1,7 @@
 == Install the server dependency
-  - In server folder use the command:
+  - In server folder use the commands:
   ```
+    npm install
     npm start
   ```
   - In cli folder use the command:
@@ -26,3 +27,10 @@
 
 == Observations
   - I'm prefering controling the packages in different folders
+
+
+> - nodejs
+  - angularjs
+  - sass
+  - bower
+  - npm
