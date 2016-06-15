@@ -11,7 +11,11 @@
   - The task runner in parent folder _my_solutions_
   ```
   npm install grunt -g grunt-cli
+  ```
+  ```
   npm install --dev
+  ```
+  ```
   grunt
   ```
 
