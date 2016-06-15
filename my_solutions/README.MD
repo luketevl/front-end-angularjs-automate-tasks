@@ -40,7 +40,8 @@
   - I'm prefering controling the packages in different folders
   - **VERY IMPORTANT** I'am use **ECMA6** in project, because this doesn't work the tasks **uglify** in **grunt**
 
-> - nodejs
+>
+  - nodejs
   - angularjs
   - sass
   - bower
