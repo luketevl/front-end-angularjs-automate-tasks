@@ -1,12 +1,73 @@
+// VARIABLES
+
 $color1: #FFF;
 $color2: #000;
 $color3: #EEE;
+$color4: #CCC;
+$color5: #2CC990;
+// MIXINS
 
-body{
-  background-color: $color3;
+@mixin mx_flexbox{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin mx_border{
+  border: 1px solid $color3;
+  &:hover{
+    border-color: $color4;
+  }
+}
+// CLASSES
+
+form{
+  #container-peoples {
+    @include mx_flexbox;
+    justify-content: space-around;
+    padding-top: 40px;
+  }
+  div{
+    @include mx_flexbox;
+    justify-content: center;
+    input{
+      padding: 10px;
+      width: 80%;
+      @include mx_border;
+    }
+    label{
+      line-height: 35px;
+      padding-right: 5px;
+    }
+  }
 }
 
 .card{
   background-color: $color1;
+  padding: 20px;
+  width: 25%;
+  margin: 5px;
+  @include mx_border;
+  p{
+    font-style: italic;
+  }
+  h1{
+    text-align: center;
+  }
+}
+.circle{
+  border-radius: 50%;
+  background-color: $color5;
+  width: 20px;
+  height: 20px;
+}
+body{
+  background-color: $color3;
+}
 
+footer{
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  background-color: #2CC990;
+  color: $color1;
 }

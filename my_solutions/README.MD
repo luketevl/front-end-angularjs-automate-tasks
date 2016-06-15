@@ -1,4 +1,4 @@
-== Install the server dependency
+== Install the dependencies
   - In server folder use the commands:
   ```
     npm install
@@ -8,6 +8,13 @@
   ```
     bower start
   ```
+  - The task runner in parent folder _my_solutions_
+  ```
+  npm install grunt -g grunt-cli
+  npm install --dev
+  grunt
+  ```
+
 
 == Starting the service
   - Use the command for start the service:
@@ -27,10 +34,16 @@
 
 == Observations
   - I'm prefering controling the packages in different folders
-
+  - **VERY IMPORTANT** I'am use **ECMA6** in project, because this doesn't work the tasks **uglify** in **grunt**
 
 > - nodejs
   - angularjs
   - sass
   - bower
   - npm
+  - grunt
+    - htmlmin
+    - cssmin
+    - jshint
+    - concat
+    - uglify

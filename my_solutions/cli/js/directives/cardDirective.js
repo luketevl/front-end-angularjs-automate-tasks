@@ -7,12 +7,11 @@
   // Creating the directive
   function uiCard(){
     let directive = {
-      restrict: 'EA',
+      restrict: 'E', // Element directive
       templateUrl: 'views/card.html',
+      replace: true,
       scope: {
-        "ui-id":               '@',
-        "ui-name":             '@',
-        "ui-disclosableinfo":  '@'
+        "people":               '=peopleData',
       },
     };
 
