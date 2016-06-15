@@ -37,7 +37,8 @@ form div {
   height: 20px; }
 
 body {
-  background-color: #EEE; }
+  background-color: #EEE;
+  font-family: 'Cormorant Garamond', serif; }
 
 footer {
   margin-top: 40px;
