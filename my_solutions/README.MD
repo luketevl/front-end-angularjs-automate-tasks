@@ -1,4 +1,4 @@
-== Install the dependencies
+## Install the dependencies
   - In server folder use the commands:
   ```
     npm install
@@ -16,7 +16,7 @@
   ```
 
 
-== Starting the service
+## Starting the service
   - Use the command for start the service:
   ```
     nodejs app.js
@@ -24,15 +24,15 @@
   - After the server has started, is listen the port 595 in address **http://localhost:595**
 
 
-== Using the client
+## Using the client
   - Open the file **index.html** to use
 
 
-== Using the server
+## Using the server
   - The API using URL **http://localhost:595/api/v1/people**
 
 
-== Observations
+## Observations
   - I'm prefering controling the packages in different folders
   - **VERY IMPORTANT** I'am use **ECMA6** in project, because this doesn't work the tasks **uglify** in **grunt**
 
